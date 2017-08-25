@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> <!--INSERT PAGE TITLE HERE--></title>
+    <title>Wikipedia Viewer</title>
     <link href="./styles/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,12 +13,17 @@
   </head>
   <body>
     <h1>Wikipedia Viewer</h1>
-    <iframe src="http://www.wikipedia.org/wiki/Special:Random" width="800" height="600"></iframe>
+    <div class="container text-center" id="controls">
     <form>
-      <input/>
-    <form>
+      <div class="input-group">
+        <input class="form-control" id="search" placeholder="please enter your search term here" required/>
+        <span class="input-group-addon" type="submit"><i class="fa fa-search"></i></span>
+      </div>
+    </form>
+    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><div class="btn btn-primary">View Random Article</div></a>
+  </div>
     <!--slider or radio buttons to select language -->
-    <div id="results-list">
+    <div class="container" id="results-list">
     <!--will hold divs templates for results-->
     </div>
   </body>
