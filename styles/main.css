@@ -2,7 +2,7 @@
 /* BOOTSTRAP (WITH NORMALIZE.CSS BUILT IN) IS ALREADY LINKED AND READY TO USE */
 /* ADDING CUSTOM CSS STYLING IS OPTIONAL */
 
-iframe {
-	height: 800;
-	width: 600;
+.gray-border {
+	border: gray 1px solid;
+	border-radius: 5px;
 }
