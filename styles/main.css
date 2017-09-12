@@ -6,3 +6,24 @@
 	border: gray 1px solid;
 	border-radius: 5px;
 }
+
+#random {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#results-list {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 590px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 591px) {
+  body {
+    width: 600px;
+  }
